@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_no_network"
+        android:layout_width="191dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="120dip"
+        android:src="@mipmap/wuwangluo" />
+
+    <TextView
+        android:id="@+id/tv_no_network"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="您的网络不给力哦"
+        android:textColor="#dcdcdc"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_click_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="点击重试"
+        android:textColor="#ff9000"
+        android:textSize="14dp" />
+</LinearLayout>

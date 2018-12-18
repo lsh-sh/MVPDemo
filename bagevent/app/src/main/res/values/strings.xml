@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">bagevent</string>
+
+
+    <string name="msg_no_data">暂无数据~</string>
+
+    <!--网络提示-->
+    <string name="http_connect_failed">请检查你的网络~</string>
+    <string name="http_refresh_failed">刷新数据失败！</string>
+    <string name="http_loadmore_failed">加载数据失败！</string>
+
+
+    <string name="login_user_name">请输入账号</string>
+    <string name="login_user_password">请输入密码</string>
+    <string name="btn_register">立即注册</string>
+    <string name="btn_forget_pwd">忘记密码</string>
+    <string name="txt_fast_login">快捷方式登录</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_logining">登录中...</string>
+    <string name="msg_name_pwd_null">用户名或密码为空!</string>
+    <string name="tab_activity">活动总览</string>
+    <string name="tab_message">消息中心</string>
+    <string name="tab_setting">账户设置</string>
+    <string name="hint_search_box">搜索</string>
+    <string name="title_event_pandect">活动总览</string>
+
+    <string name="start">开始</string>
+    <string name="not_start">暂未开始</string>
+    <string name="stop">已结束</string>
+</resources>

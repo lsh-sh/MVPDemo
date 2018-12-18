@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_event_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="23px"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="创业邦2016首期创业沙龙@深圳"
+        android:textColor="@color/black"
+        android:textSize="32px" />
+
+    <TextView
+        android:id="@+id/tv_collect_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_event_name"
+        android:layout_alignStart="@+id/tv_event_name"
+        android:layout_marginTop="15px"
+        android:ellipsize="end"
+        android:gravity="bottom"
+        android:singleLine="true"
+        android:text="采集点"
+        android:textColor="@color/grey"
+        android:textSize="24px" />
+
+    <View
+        android:id="@+id/collect_line"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_collect_name"
+        android:layout_alignStart="@+id/tv_collect_name"
+        android:layout_alignEnd="@+id/ll_collect_barcode"
+        android:layout_marginTop="15px"
+        android:background="@color/e6edf2"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_collect_checkincounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/collect_line"
+        android:layout_alignStart="@+id/tv_collect_name"
+        android:layout_marginTop="15px"
+        android:text="9"
+        android:textColor="@color/fe6900"
+        android:textSize="32px" />
+
+    <TextView
+        android:id="@+id/tv_mark_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_collect_checkincounts"
+        android:layout_alignStart="@+id/tv_collect_checkincounts"
+        android:layout_marginTop="5px"
+        android:layout_marginBottom="30px"
+        android:text="人来过"
+        android:textColor="@color/grey"
+        android:textSize="24px" />
+
+    <LinearLayout
+        android:id="@+id/ll_collect_barcode"
+        android:layout_width="72px"
+        android:layout_height="72px"
+        android:layout_below="@+id/collect_line"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25px"
+        android:layout_marginEnd="23dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ll_collect_barcode"
+            android:layout_alignBottom="@+id/tv_mark_count"
+            android:layout_gravity="center"
+            android:src="@mipmap/sweep" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_mark_count"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40px"
+        android:layout_marginEnd="40px"
+        android:background="@color/e6edf2" />
+
+
+</RelativeLayout>
